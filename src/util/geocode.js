@@ -1,7 +1,7 @@
 const { default: chalk } = require('chalk')
 const request = require('request')
 const fs = require('fs')
-const { isDataView } = require('util/types')
+
 
 const geocode = (lugar,callback) =>{
     const url = 'http://api.mapbox.com/geocoding/v5/mapbox.places/'+lugar+'.json?limit=1&types=place&language=pt&access_token=pk.eyJ1IjoiYWlzMTIzMzIxIiwiYSI6ImNreDludGl4czNudXYzMHJudWMzYzZod3IifQ.cmkMToc3svW5CY7cd6d76w'
