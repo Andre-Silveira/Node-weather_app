@@ -1,0 +1,23 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@translate-tools/core": "^0.2.4",
+    "chalk": "^2.4.1",
+    "express": "^4.16.4",
+    "google-translate-api": "^2.3.0",
+    "hbs": "^4.0.1",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.0",
+    "socket.io": "^4.4.0",
+    "translate-api": "^0.3.18"
+  }
+}

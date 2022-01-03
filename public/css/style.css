@@ -1,0 +1,40 @@
+header{
+    padding: 16px;
+    color:grey;
+}
+
+header a{
+    padding: 16px;
+    color:grey;
+    text-decoration: none;
+}
+
+body{
+    color:grey;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3px 16px;
+    min-height: 100vh;
+
+    display:flex;
+    flex-direction: column;
+}
+
+.principal{
+    flex-grow: 1;
+}
+
+
+
+footer{
+    color:grey;
+    border-top: 1px solid grey ;
+    font: arial;
+    font-size: 17px;
+    padding: 0 16px;
+    margin-top: 5px;
+}
+
+img{
+    width: 500px;
+}
