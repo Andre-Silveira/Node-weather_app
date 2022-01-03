@@ -18,7 +18,7 @@ const forecast = (latitude,longitude, callback) => {
             }
             const {descricao,temperatura,sensacao} = dados
             //fs.appendFileSync('log.txt',descricao +'. A temperatura atual é de '+temperatura+'ºC. A sensação térmica é de '+sensacao+'ºC.')
-            callback(undefined, descricao +'. A temperatura atual é de '+ temperatura + 'ºC. A sensação térmica é de '+ sensacao +'ºC.')
+            callback(undefined,'A temperatura atual é de '+ temperatura + 'ºC. A sensação térmica é de '+ sensacao +'ºC.')
             //callback(undefined, dados)
             
         }      
