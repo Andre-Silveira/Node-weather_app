@@ -24,11 +24,7 @@ body{
     flex-grow: 1;
 }
 
-.descricao{
-    padding: 5px;
-    color:grey;
-    text-decoration: none;
-}
+
 
 footer{
     color:grey;
